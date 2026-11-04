@@ -1,9 +1,8 @@
-// export default function RootLayout({
-//     children
-// }: Readonly<{
-//     children: React.ReactNode
-// }>) {
-export default function RootLayout({ children }: LayoutProps<"/">) {
+export default function RootLayout({
+    children
+}: Readonly<{
+    children: React.ReactNode
+}>) {
     return (
         <main>
             {children}
